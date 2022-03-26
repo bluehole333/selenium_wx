@@ -8,10 +8,8 @@ from appium import webdriver
 from selenium.webdriver.common.by import By
 from django.core.management import BaseCommand
 
-from studioweb.models import Customer
 
-
-class WxAuto(BaseCommand):
+class WxAuto(object):
     """
     adb connect 127.0.0.1:5555
     """
