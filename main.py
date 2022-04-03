@@ -62,7 +62,7 @@ class WxAuto(object):
         print("输入添加好友申请理由")
         add_friend_reason = self.driver.find_element(By.ID, "com.tencent.mm:id/f5e")
         add_friend_reason.clear()
-        add_friend_reason.send_keys("杭州境界软件")
+        add_friend_reason.send_keys("添加好友理由")
 
         print("添加添加通讯录按钮")
         self.driver.find_element(By.ID, "com.tencent.mm:id/ch").click()
